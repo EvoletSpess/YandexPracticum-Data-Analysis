@@ -1,3 +1,4 @@
+```python
 min_required_area = 40 # минимальная требуемая площадь
 max_affordable_price = 190000 # максимально допустимая арендная ставка
 third_ring_radius = 6.7 # максимальное расстояние от центра
@@ -72,3 +73,4 @@ for index in range(len(filtered_objects_profits)):
         print(filtered_objects_traffic[index] * income_multiplier_pessimistic - 
         (filtered_objects_price[index] + addition_to_expenses))
         print('----------')
+```
